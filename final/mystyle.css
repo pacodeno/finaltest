@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap');
+
+html{font-size: 10px; user-select: none; }
+
+body{
+    margin: 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+header{ height: 300px; background-color: thistle;}
+header section{height: 100%;}
+header section h1{padding-top: 20px;}
+header p{padding-top: 30px;}
+
+#menu{height: 55px; position: sticky; top: 0px; border-bottom: 1.5px solid steelblue; box-shadow:0px 3px 5px 10px rgba(30, 30, 30, 0);}
+#menu ul{display: flex; justify-content: space-around; padding: 0px;}
+#menu ul li{list-style: none; padding: 8px 40px; user-select: none;}
+#menu ul li:hover{color: white; background-color: steelblue;}
+
+.bg-img1{background-image: url(img/head.jpg); background-attachment: fixed;}
+
+.row{
+    display: flex;
+    width: 1080px;    
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 0px 5px;
+    
+}
+
+.col-1{width: 16.66%; padding: 0px 5px; }
+.col-2{width: 33.33%; padding: 0px 5px; }
+.col-3{width: 50%; padding: 0px 5px; }
+.col-4{width: 66.66%; padding: 0px 5px; }
+.col-5{width: 83.32%; padding: 0px 5px; }
+.col-6{width: 100%; padding: 0px 5px; }
+
+.bg-white{background-color: white;}
+.bg-gray{background-color: gray;}
+.bg-blue{background-color: steelblue;}
+.bg-green{background-color: yellowgreen;}
+.bg-none{background-color: none;}
+
+.h-200{height: 80px;}
+.h-300{height: 300px;}
+.h-400{height: 400px;}
+.h-500{height: 500px;}
+
+.text-main-title{font-weight: 700; font-size: 5.5rem;}
+.text-sub-title{font-weight: 500; font-size: 2.2rem;}
+.text-main-text{font-weight: 300; font-size: 1.6rem;}
+.text-menu-text{font-weight: 500; font-size: 1.3rem;}
+
+.text-align-center{text-align: center;}
+.text-align-left{text-align: left;}
+.text-align-right{text-align: right;}
+
+.text-white{color: white;}
+.text-gray{color: #333;}
+
+.img-fit{width: 100%;}
+.img-border{border: 1px solid #777;}
+.img-small{width: 50%;}
+
+.paragraph{column-count: 3; column-gap: 20px; column-rule: 4px double steelblue; }
+.paragraph-span{column-span: all;}
+
+#footer{margin-bottom: 0px;}
+
+a:hover {text-decoration: none;}
+a{text-decoration: none;}
+a:visited { color: #333333;}
